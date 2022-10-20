@@ -1,0 +1,255 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* 導覽列 */
+.navbar-brand{
+	font-family: 'Pacifico', cursive;
+	font-size: 32px;
+}
+
+.navbar-brand span{
+	font-size: 16px;
+	margin-left: 4px;
+	color: #ffaaaa;
+}
+
+.nav-link{ 
+	font-size: 16px;
+	margin: 0 16px;
+}
+
+.nav-item .active,
+.nav-item:hover{
+	color: #00e8e8;
+}
+
+.menu-right-btn{
+	background-color:transparent;
+	transition: all 300ms ease-in;
+}
+
+.menu-right-btn:hover{
+	color: #fff;
+	background-color: #00e8e8;
+}
+
+/* 主要區塊 */
+.site-content{
+	background-image: url(image/img-header.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.site-title{
+	margin-top: 25%;
+	margin-bottom: 5%;
+	font-family: 'Righteous', cursive;
+	font-size: 80px;
+	text-shadow: rgba(0, 0, 0, 0.6);
+}
+
+.site-desc{
+	font-size: 24px;
+	margin-bottom: 5%
+}
+
+.btn-group{
+	width: 60%;
+	margin: 0 auto;
+	margin-bottom: 25%;
+}
+
+/* section 1 */
+.section-1 .title{
+	margin-top: 8%;
+}
+
+.section-1 .subtitlt{
+	margin-bottom: 3%;
+}
+
+.section-1 .para{
+	width: 60%;
+	margin-left: 20%;
+	margin-bottom: 5%;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.section-1 .card-text{
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.section-1{
+	margin-bottom: 5%;
+}
+
+.section-1 .img-fliud{
+	object-fit: cover;
+	object-position: center center;
+}
+
+/* section 2 */
+.section-2{
+	background-image: url(image/christophe-rollando-QM2Exov4E2Q-unsplash.jpg);
+	background-size: cover;
+	background-attachment: scroll;
+	width: 100%;
+	margin-top: 8%;
+}
+
+.section-2 .col-md-7{
+	margin-top: 10%;
+}
+
+.section-2 .col-md-5{
+	margin-bottom: 10%;
+	padding-top: 8%;
+}
+
+.section-2 .title{
+	font-family: 'Righteous', cursive;;
+	font-size: 32px;
+}
+
+.card-img-top{
+	object-fit: cover;
+	object-position: center;
+}
+
+/* section 3 */
+.section-3{
+	margin-top: 8%;
+}
+
+/* .section-3 .icon{
+	text-align: center;
+} */
+
+.section-3 p{
+	color: rgba(0, 0, 0, 0.6);
+}
+
+/* section 4 */
+.section-4 {
+	margin-top: 8%;
+}
+
+.section-4 .row .col-md-7{
+/* .section-4 .row .col-md-7{ */
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.section-4 .row .col-md-5{
+/* .section-4 .row .col-md-5{ */
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.section-4 a{
+	font-size: 28px;
+	text-decoration: none;
+}
+
+.section-4 .para{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+}
+
+/* 頁尾 */
+.social-icon{
+	margin: 20px auto;
+}
+
+.social-icon i{
+	color: grey;
+	font-size: 24px;
+}
+
+
+@media screen and (max-width: 768px){
+	/* 導覽列 */
+	.navbar-collapse{
+		padding-left: 10px;
+	}
+
+	.menu-right-btn{
+		display: none;
+	}
+
+	/* 主要區塊 */
+	.site-title{
+		font-size: 52px;
+		margin-bottom: 3%;
+	}
+
+	.site-desc{
+		font-size: 16px;
+		margin-bottom: 3%;
+	}
+
+	/* section 1 */
+	.card-img-top{
+		height: 300px;
+	}
+	
+	.section-1 .para{
+		width: 80%;
+		margin: auto;
+		margin-bottom: 5%;
+	}
+
+	/* section 4 */
+	.section-4 .para{
+		font-size: 16px;
+	}
+
+	/* 頁尾 */
+	.form-inlink input{
+		margin: 20px;
+	}
+}
+
+@media screen and (max-width: 576px){
+	/* section 1 */
+	.section-1 .col-md-4{
+		padding: 5%;
+		margin-left: 8%;
+	}
+	
+	/* section 2 */
+	.section-2 .col-md-5{
+		text-align: center;
+		margin: 10% auto;
+	}
+
+	/* section 4 */
+	.section-4 {
+		text-align: center;
+	}
+
+	.section-4 .col-md-7 {
+		margin-top: 0%;
+	}
+	
+	.section-4 a {
+		margin-top: 0%;
+	}
+
+	.section-4 .img-fluid {
+		margin-top: 10%;
+	}
+
+	.section-4 .para {
+		margin-bottom: 10%;
+	}
+
+}
+
+
+
+
+
