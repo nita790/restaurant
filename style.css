@@ -124,10 +124,6 @@ body{
 	margin-top: 8%;
 }
 
-/* .section-3 .icon{
-	text-align: center;
-} */
-
 .section-3 p{
 	color: rgba(0, 0, 0, 0.6);
 }
@@ -138,13 +134,11 @@ body{
 }
 
 .section-4 .row .col-md-7{
-/* .section-4 .row .col-md-7{ */
 	margin-top: 10%;
 	margin-bottom: 10%;
 }
 
 .section-4 .row .col-md-5{
-/* .section-4 .row .col-md-5{ */
 	margin-top: 10%;
 	margin-bottom: 10%;
 }
@@ -156,10 +150,14 @@ body{
 
 .section-4 .para{
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 /* 頁尾 */
+.social{
+	margin-bottom: 2%;
+}
+
 .social-icon{
 	margin: 20px auto;
 }
@@ -176,13 +174,18 @@ body{
 		padding-left: 10px;
 	}
 
-	.menu-right-btn{
+	.navbar-nav li{
+		font-style: 20px;
+		padding: 8px 0;
+	}
+
+	.navbar .btn{
 		display: none;
 	}
 
 	/* 主要區塊 */
 	.site-title{
-		font-size: 52px;
+		font-size: 38px;
 		margin-bottom: 3%;
 	}
 
@@ -217,13 +220,30 @@ body{
 	/* section 1 */
 	.section-1 .col-md-4{
 		padding: 5%;
-		margin-left: 8%;
 	}
-	
+
+	.section-1 .title {
+		font-style: 28px;
+	}
+
+	.section-1 .subtitlt {
+		font-size: 28px;
+		margin-bottom: 5%;
+	}
+
 	/* section 2 */
 	.section-2 .col-md-5{
 		text-align: center;
 		margin: 10% auto;
+	}
+
+	.section-2 .col-md-7 {
+		margin-top: 0%;
+	}
+
+	/* section 3 */
+	.section-3 .row{
+		padding: 0 5%;
 	}
 
 	/* section 4 */
@@ -232,15 +252,11 @@ body{
 	}
 
 	.section-4 .col-md-7 {
-		margin-top: 0%;
+		margin-top: 0;
 	}
 	
 	.section-4 a {
 		margin-top: 0%;
-	}
-
-	.section-4 .img-fluid {
-		margin-top: 10%;
 	}
 
 	.section-4 .para {
@@ -248,8 +264,6 @@ body{
 	}
 
 }
-
-
 
 
 
