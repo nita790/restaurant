@@ -6,14 +6,12 @@ body{
 
 /* 導覽列 */
 .navbar-brand{
-	font-family: 'Pacifico', cursive;
-	font-size: 32px;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 .navbar-brand span{
-	font-size: 16px;
 	margin-left: 4px;
-	color: #ffaaaa;
+	color: #fe9393;
 }
 
 .nav-link{ 
@@ -21,7 +19,7 @@ body{
 	margin: 0 16px;
 }
 
-.nav-item .active,
+.nav-item.active,
 .nav-item:hover{
 	color: #00e8e8;
 }
@@ -46,7 +44,8 @@ body{
 .site-title{
 	margin-top: 25%;
 	margin-bottom: 5%;
-	font-family: 'Righteous', cursive;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 500;
 	font-size: 80px;
 	text-shadow: rgba(0, 0, 0, 0.6);
 }
@@ -110,7 +109,7 @@ body{
 }
 
 .section-2 .title{
-	font-family: 'Righteous', cursive;;
+	font-family: 'Cormorant Garamond', serif;
 	font-size: 32px;
 }
 
@@ -133,6 +132,10 @@ body{
 	margin-top: 8%;
 }
 
+.section-4 h3{
+	font-family: 'Cormorant Garamond', serif;
+}
+
 .section-4 .row .col-md-7{
 	margin-top: 10%;
 	margin-bottom: 10%;
@@ -151,11 +154,21 @@ body{
 .section-4 .para{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 20px;
+	font-weight: 300;
 }
 
 /* 頁尾 */
+.form{
+	width: 40%;
+	margin: auto;
+}
+
+.form input{
+	margin: 8px 0;
+}
+
 .social{
-	margin-bottom: 2%;
+	margin: 5%;
 }
 
 .social-icon{
@@ -211,8 +224,8 @@ body{
 	}
 
 	/* 頁尾 */
-	.form-inlink input{
-		margin: 20px;
+	.form{
+		width: 70%;
 	}
 }
 
@@ -263,7 +276,31 @@ body{
 		margin-bottom: 10%;
 	}
 
+		/* 頁尾 */
+		.form {
+			width: 80%;
+		}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
